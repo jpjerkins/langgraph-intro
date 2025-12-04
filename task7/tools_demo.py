@@ -9,6 +9,8 @@ from typing import TypedDict, List
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 from ddgs import DDGS
+from dotenv import load_dotenv
+load_dotenv()
 
 print("\n🔧 TOOL INTEGRATION DEMO - DuckDuckGo Search")
 print("=" * 40)

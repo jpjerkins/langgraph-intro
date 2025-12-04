@@ -8,6 +8,8 @@ import os
 from typing import TypedDict, Literal
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 print("\n🔄 LOOPS & ITERATIONS DEMO")
 print("=" * 40)

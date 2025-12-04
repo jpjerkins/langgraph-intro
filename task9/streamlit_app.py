@@ -13,6 +13,8 @@ from langchain_openai import ChatOpenAI
 from ddgs import DDGS
 from datetime import datetime
 import json
+from dotenv import load_dotenv
+load_dotenv()
 
 # Page config
 st.set_page_config(

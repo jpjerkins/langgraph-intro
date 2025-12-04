@@ -10,6 +10,8 @@ from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 from ddgs import DDGS
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 print("\n🤖 COMPLETE RESEARCH ASSISTANT")
 print("=" * 50)

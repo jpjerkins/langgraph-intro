@@ -9,6 +9,8 @@ import os
 from typing import TypedDict, List
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 print("\n💾 MEMORY & STATE ACCUMULATION DEMO")
 print("=" * 40)
