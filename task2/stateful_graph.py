@@ -73,11 +73,10 @@ def main():
     
     # Save result
     try:
-        with open('graph_result.txt', 'w') as f:
-            f.write(f"Stateful Graph: Memory preserved across steps\n")
-            f.write(f"Input: {name}\n")
-            f.write(f"Output: {result.get('greeting', '')} → {result.get('farewell', '')}\n")
-            f.write(f"Memory: {name} (preserved in state)\n")
+        print(f"Stateful Graph: Memory preserved across steps\n")
+        print(f"Input: {name}\n")
+        print(f"Output: {result.get('greeting', '')} → {result.get('farewell', '')}\n")
+        print(f"Memory: {name} (preserved in state)\n")
     except:
         pass  # Local testing
 
@@ -87,7 +86,7 @@ if __name__ == "__main__":
     except Exception as e:
         # Fallback for testing
         try:
-            with open('graph_result.txt', 'w') as f:
-                f.write("Stateful graph completed\n")
+            print("Stateful graph FAILED\n")
+            print(f"Exception: {e}")
         except:
             pass
