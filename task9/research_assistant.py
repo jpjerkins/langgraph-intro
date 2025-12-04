@@ -308,9 +308,9 @@ This is the power of LangGraph! 🚀
 
 # Save completion marker
 try:
-    with open('/root/research-complete.txt', 'w') as f:
+    with open('research-complete.txt', 'w') as f:
         f.write('RESEARCH_COMPLETE\n')
         f.write('Task 9: Research assistant implementation completed successfully\n')
-    print("\n✅ Completion marker saved to /root/research-complete.txt")
+    print("\n✅ Completion marker saved to research-complete.txt")
 except:
     print("\n✅ Task 9: Research Assistant completed!")

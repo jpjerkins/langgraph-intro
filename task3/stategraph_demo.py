@@ -92,7 +92,7 @@ print("  • Previous values were preserved")
 
 # Save completion marker
 try:
-    with open('/root/stategraph_complete.txt', 'w') as f:
+    with open('stategraph_complete.txt', 'w') as f:
         f.write('StateGraph implementation complete\n')
         f.write(f'Final state: {result}\n')
 except:

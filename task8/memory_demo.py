@@ -225,10 +225,10 @@ State Accumulation Pattern:
 
 # Save completion marker
 try:
-    with open('/root/memory-complete.txt', 'w') as f:
+    with open('memory-complete.txt', 'w') as f:
         f.write('MEMORY_COMPLETE\n')
         f.write('Task 8: Memory and state accumulation completed successfully\n')
-    print("\n✅ Completion marker saved to /root/memory-complete.txt")
+    print("\n✅ Completion marker saved to memory-complete.txt")
 except:
     # For local testing
     print("\n✅ Task 8: Memory demonstration completed!")

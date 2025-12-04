@@ -46,7 +46,7 @@ def main():
     
     # Save result
     try:
-        with open('/root/sequential_result.txt', 'w') as f:
+        with open('sequential_result.txt', 'w') as f:
             f.write(f"Sequential Chain: No memory between steps\n")
             f.write(f"Input: {name}\n")
             f.write(f"Output: {greeting} → {farewell}\n")
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     except Exception as e:
         # Fallback for testing
         try:
-            with open('/root/sequential_result.txt', 'w') as f:
+            with open('sequential_result.txt', 'w') as f:
                 f.write("Sequential chain completed\n")
         except:
             pass

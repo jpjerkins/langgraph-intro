@@ -27,7 +27,7 @@ def main():
     
     # Save result
     try:
-        with open('/root/comparison_complete.txt', 'w') as f:
+        with open('comparison_complete.txt', 'w') as f:
             f.write("Comparison completed\n")
             f.write("Sequential: No memory between steps\n")
             f.write("Stateful: Memory preserved in state\n")
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     except Exception as e:
         # Fallback for testing
         try:
-            with open('/root/comparison_complete.txt', 'w') as f:
+            with open('comparison_complete.txt', 'w') as f:
                 f.write("Comparison completed\n")
         except:
             pass

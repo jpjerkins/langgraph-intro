@@ -177,10 +177,10 @@ print("""
 
 # Save completion marker
 try:
-    with open('/root/loops-complete.txt', 'w') as f:
+    with open('loops-complete.txt', 'w') as f:
         f.write('LOOPS_COMPLETE\n')
         f.write('Task 6: Loops and iterations completed successfully\n')
-    print("\n✅ Completion marker saved to /root/loops-complete.txt")
+    print("\n✅ Completion marker saved to loops-complete.txt")
 except:
     # For local testing
     print("\n✅ Task 6: Loops demonstration completed!")
