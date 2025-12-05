@@ -5,7 +5,7 @@ Shows how state persists and accumulates across nodes
 """
 
 from typing import TypedDict, List
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import StateGraph, END
 
 print("\n🛒 STATEGRAPH DEMO - Shopping Cart")
 print("=" * 40)
