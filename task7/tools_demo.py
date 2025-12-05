@@ -65,7 +65,7 @@ def search_tool_node(state: ToolState):
             title = result.get('title', 'No title')
             body = result.get('body', 'No description')
             search_results.append(f"{i}. {title}: {body}")
-            print(f"   → Found result {i}: {title[:50]}...")
+            print(f"   → Found result {i}: {title[:50]}... ({len(body)} chars)")
         
         if not search_results:
             search_results = ["No results found. Try a different query."]
@@ -144,7 +144,7 @@ print("=" * 40)
 test_queries = [
     "What is LangGraph used for?",
     "How to build AI agents?",
-    "DuckDuckGo search API"
+    "Why use TiddlyWiki?"
 ]
 
 for query in test_queries:
