@@ -129,9 +129,8 @@ Nodes are the building blocks of your workflow!
 
 # Save completion marker
 try:
-    with open('nodes-complete.txt', 'w') as f:
-        f.write('NODES_COMPLETE\n')
-        f.write('Task 4: Nodes demonstration completed successfully\n')
+    print('NODES_COMPLETE\n')
+    print('Task 4: Nodes demonstration completed successfully\n')
     print("\n✅ Completion marker saved to nodes-complete.txt")
 except:
     # For local testing

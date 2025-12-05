@@ -116,5 +116,4 @@ print("  • Router function returns path decision")
 print("  • Multiple paths converge at END")
 
 # Save completion marker
-with open('edges_routing_complete.txt', 'w') as f:
-    f.write('EDGES_ROUTING_COMPLETE')
+print('EDGES_ROUTING_COMPLETE')
