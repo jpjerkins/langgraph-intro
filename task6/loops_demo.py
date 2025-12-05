@@ -16,7 +16,7 @@ print("=" * 40)
 
 # Initialize LLM with environment variables
 llm = ChatOpenAI(
-    model="openai/gpt-4.1-mini",
+    model=os.getenv("OPENAI_MODEL"),
     api_key=os.getenv("OPENAI_API_KEY"),
     base_url=os.getenv("OPENAI_API_BASE")
 )
