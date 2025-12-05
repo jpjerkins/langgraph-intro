@@ -187,9 +187,8 @@ def tool_node(state):
 
 # Save completion marker
 try:
-    with open('tools-complete.txt', 'w') as f:
-        f.write('TOOLS_COMPLETE\n')
-        f.write('Task 7: Tool integration completed successfully\n')
+    print('TOOLS_COMPLETE\n')
+    print('Task 7: Tool integration completed successfully\n')
     print("\n✅ Completion marker saved to tools-complete.txt")
 except:
     # For local testing
